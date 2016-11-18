@@ -116,7 +116,7 @@ var turn = "player1"
 function tichoe(){
   if(turn == "player1"){
     var circle = document.createElementNS(namespace, "circle")
-      circle.setAttribute("cx","50")
+      circle.setAttribute("cx","270")
       circle.setAttribute("cy","178")
       circle.setAttribute("r","20")
     circle.setAttribute("fill","red")
@@ -125,8 +125,105 @@ function tichoe(){
   turn = "player2"
 }else{
   var circle = document.createElementNS(namespace, "circle")
-    circle.setAttribute("cx","50")
+    circle.setAttribute("cx","270")
     circle.setAttribute("cy","178")
+    circle.setAttribute("r","20")
+  circle.setAttribute("fill","purple")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+  turn = "player1"
+
+}
+
+}
+var turn = "player1"
+function tichode(){
+  if(turn == "player1"){
+    var circle = document.createElementNS(namespace, "circle")
+      circle.setAttribute("cx","157")
+      circle.setAttribute("cy","178")
+      circle.setAttribute("r","20")
+    circle.setAttribute("fill","red")
+    var canvas = document.getElementById("game-board")
+    canvas.appendChild(circle)
+  turn = "player2"
+}else{
+  var circle = document.createElementNS(namespace, "circle")
+    circle.setAttribute("cx","157")
+    circle.setAttribute("cy","178")
+    circle.setAttribute("r","20")
+  circle.setAttribute("fill","purple")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+  turn = "player1"
+
+}
+
+}
+var turn = "player1"
+function tictacc(){
+  if(turn == "player1"){
+    var circle = document.createElementNS(namespace, "circle")
+      circle.setAttribute("cx","50")
+      circle.setAttribute("cy","288")
+      circle.setAttribute("r","20")
+    circle.setAttribute("fill","red")
+    var canvas = document.getElementById("game-board")
+    canvas.appendChild(circle)
+  turn = "player2"
+}else{
+  var circle = document.createElementNS(namespace, "circle")
+    circle.setAttribute("cx","50")
+    circle.setAttribute("cy","288")
+    circle.setAttribute("r","20")
+  circle.setAttribute("fill","purple")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+  turn = "player1"
+
+}
+
+}
+
+var turn = "player1"
+function pictacc(){
+  if(turn == "player1"){
+    var circle = document.createElementNS(namespace, "circle")
+      circle.setAttribute("cx","158")
+      circle.setAttribute("cy","288")
+      circle.setAttribute("r","20")
+    circle.setAttribute("fill","red")
+    var canvas = document.getElementById("game-board")
+    canvas.appendChild(circle)
+  turn = "player2"
+}else{
+  var circle = document.createElementNS(namespace, "circle")
+    circle.setAttribute("cx","158")
+    circle.setAttribute("cy","288")
+    circle.setAttribute("r","20")
+  circle.setAttribute("fill","purple")
+  var canvas = document.getElementById("game-board")
+  canvas.appendChild(circle)
+  turn = "player1"
+
+}
+
+}
+var turn = "player1"
+function t1ctacc(){
+  if(turn == "player1"){
+    var circle = document.createElementNS(namespace, "circle")
+      circle.setAttribute("cx","265")
+      circle.setAttribute("cy","288")
+      circle.setAttribute("r","20")
+    circle.setAttribute("fill","red")
+    var canvas = document.getElementById("game-board")
+    canvas.appendChild(circle)
+  turn = "player2"
+}else{
+  var circle = document.createElementNS(namespace, "circle")
+    circle.setAttribute("cx","265")
+    circle.setAttribute("cy","288")
     circle.setAttribute("r","20")
   circle.setAttribute("fill","purple")
   var canvas = document.getElementById("game-board")
